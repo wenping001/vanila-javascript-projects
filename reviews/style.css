@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 80vh;
+  text-align: center;
+}
+p {
+  margin-bottom: 0.8rem;
+}
+
+h1 {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid gold;
+  font-weight: bold;
+}
+.container {
+  width: 50%;
+  min-width: 400px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+#avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+#name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+#job {
+  font-size: 1rem;
+  color: dodgerblue;
+}
+
+#desc {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.arrows {
+  color: dodgerblue;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  padding: 0.3rem 0.5rem;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 0.3rem;
+}
+
+button:hover {
+  background-color: rgb(104, 173, 241);
+}
